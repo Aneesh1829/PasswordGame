@@ -21,4 +21,4 @@ app.use((req, res) => {
   res.status(404).json({ message: '404! Route not found ❌' });
 });
 
-app.listen(process.env.PORT || 5000, () => console.log('✅ Server running'));
+app.listen(process.env.PORT || 5000, () => console.log('✅ Server running') );
